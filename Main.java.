@@ -1,0 +1,13 @@
+public class Main { 
+public static void main(String[] args) { 
+  balances = [1200, -350, 0, -1800, 450]
+
+print("Отчёт по счетам с отрицательным балансом:")
+
+for index, balance in enumerate(balances, start=1):
+    if balance < 0:
+        debt_amount = abs(balance)  # модуль числа — размер долга
+        print(f"Счёт №{index} — долг: {debt_amount} руб. (текущий баланс: {balance} руб.)")                                                    // Код вашего варианта (условия, циклы, массивы) 
+System.out.println("Модуль успешно инициализирован в Git!"); 
+} 
+} 
